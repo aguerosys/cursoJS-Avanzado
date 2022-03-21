@@ -89,5 +89,7 @@ const cargoSelect = ()=>{
     seleccion.innerHTML = contenido
 }
 
+$('h1')
+
 
 
