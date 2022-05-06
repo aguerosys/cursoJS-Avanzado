@@ -15,7 +15,7 @@
     <script defer src="formulario.js"></script>
     <script defer src="variables.js"></script>
     <script defer src="conectividad.js"></script>
-    
+    <script defer src="storage.js"></script>
 
     <script defer src="eventosformulario.js"></script>
 
@@ -35,8 +35,25 @@
             <input type="email" name="" id="email" placeholder="Email" >
             <input type="url" name="" id="url" placeholder="Perfil linkedin" >
             <input type="submit" value="Enviar" id="btnEnviar" class="btn" >
+            <input type="button" value="Eliminar" id="btnEliminar" class="btn red" >
         </form>
-        <select name="" id="seleccion"></select>
+        <!-- <select name="" id="seleccion"></select> -->
     </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Telefono</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody id="lista">
+            <tr>
+                
+            </tr>
+
+        </tbody>
+    </table>
 </body>
 </html>

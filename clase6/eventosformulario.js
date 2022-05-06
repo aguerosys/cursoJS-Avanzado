@@ -2,6 +2,8 @@ const reciboFoco = (campo) => {
     campo.style.backgroundColor = "Lime"
 }
 const pierdoFoco = (campo) => {
+    //guardarDatosForm(campo)
+    guardarDatosFormJSON(campo)
     campo.style.backgroundColor = "white"
 }
 for (const campo of campos){
@@ -22,9 +24,6 @@ for (const campo of campos){
 
 formulario.addEventListener("submit", (e) => {
     e.preventDefault()
-    console.log(nombre.value)
-    console.log("Se pulso el boton enviar")
-
     //valido el ingreso del telefono al presional el boton
     validoIngresoDatos()
 })
@@ -90,6 +89,7 @@ const cargoSelect = ()=>{
     seleccion.innerHTML = contenido
 }
 $('h1')
+
 
 
 
